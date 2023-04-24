@@ -2,11 +2,13 @@ import 'dart:math';
 
 void main() {
   //  #####1
+  print("* Задание 1 *");
   int random1 = Random().nextInt(100);
   int random2 = Random().nextInt(100);
   print(random1 + random2);
 
   //  #####2
+  print("* Задание 2 *");
   List rl1 = [];
   for (int i = 0; i < Random().nextInt(20); i++) {
     rl1.add(Random().nextInt(100));
@@ -14,6 +16,7 @@ void main() {
   print(rl1);
 
   //  #####3
+  print("* Задание 3 *");
   List rl2 = [];
   int x = 3;
   for (int i = 0; i <= Random().nextInt(10); i++) {
@@ -26,6 +29,7 @@ void main() {
   print(rl2);
 
   //  #####4
+  print("* Задание 4 *");
   List rl3 = [];
   int min = 50;
   int size = Random().nextInt(20);
