@@ -6,6 +6,7 @@ void main() {
   int random1 = Random().nextInt(100);
   int random2 = Random().nextInt(100);
   print(random1 + random2);
+  print(" ");
 
   //  #####2
   print("* Задание 2 *");
@@ -14,6 +15,7 @@ void main() {
     rl1.add(Random().nextInt(100));
   }
   print(rl1);
+  print(" ");
 
   //  #####3
   print("* Задание 3 *");
@@ -27,6 +29,7 @@ void main() {
     }
   }
   print(rl2);
+  print(" ");
 
   //  #####4
   print("* Задание 4 *");
